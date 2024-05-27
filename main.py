@@ -1,10 +1,8 @@
-
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 import pandas as pd
 import numpy as np
 import os
-import librosa
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -13,21 +11,7 @@ from transformers import pipeline
 
 # Step 1: Load DEAM Features and Annotations
 
-# Load annotations from the DEAM dataset folder
-def load_annotations_from_folder(folder_path):
-    all_annotations = []
-
-    for file_name in os.listdir(folder_path):
-        if file_name.endswith('.csv'):
-            file_path = os.path.join(folder_path, file_name)
-            annotations_df = pd.read_csv(file_path)
-            all_annotations.append(annotations_df)
-
-    combined_annotations = pd.concat(all_annotations, ignore_index=True)
-    return combined_annotations
-
-# Load features from the DEAM dataset folder
-def load_features_from_folder(folder_path):
+def load_deam_features(folder_path):
     all_features = []
 
     for file_name in os.listdir(folder_path):
@@ -39,28 +23,37 @@ def load_features_from_folder(folder_path):
     combined_features = pd.concat(all_features, ignore_index=True)
     return combined_features
 
+def load_deam_annotations(folder_path):
+    all_annotations = []
+
+    for file_name in os.listdir(folder_path):
+        if file_name.endswith('.csv'):
+            file_path = os.path.join(folder_path, file_name)
+            annotations_df = pd.read_csv(file_path)
+            all_annotations.append(annotations_df)
+
+    combined_annotations = pd.concat(all_annotations, ignore_index=True)
+    return combined_annotations
+
 # Directory paths relative to the main script
 current_dir = os.path.dirname(os.path.abspath(__file__))
-audio_dir = os.path.join(current_dir, 'audio_files')
-annotations_dir = os.path.join(current_dir, 'annotations')
-features_dir = os.path.join(current_dir, 'features')
+features_dir = os.path.join(current_dir, 'deam_features')
+annotations_dir = os.path.join(current_dir, 'deam_annotations')
 
-# Load and preprocess annotations
-annotations_df = load_annotations_from_folder(annotations_dir)
-
-# Load features
-features_df = load_features_from_folder(features_dir)
+# Load DEAM features and annotations
+deam_features = load_deam_features(features_dir)
+deam_annotations = load_deam_annotations(annotations_dir)
 
 # Merge features with annotations
-data = pd.merge(features_df, annotations_df, on='file')
+deam_data = pd.merge(deam_features, deam_annotations, on='file_id')
 
 # Encode emotions and standardize features
 label_encoder = LabelEncoder()
-data['emotion_encoded'] = label_encoder.fit_transform(data['emotion'])
+deam_data['emotion_encoded'] = label_encoder.fit_transform(deam_data['emotion'])
 
 feature_columns = ['tempo', 'energy', 'danceability', 'valence']
-X = data[feature_columns]
-y = data['emotion_encoded']
+X = deam_data[feature_columns]
+y = deam_data['emotion_encoded']
 
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
@@ -71,9 +64,11 @@ classifier = RandomForestClassifier(n_estimators=100, random_state=42)
 classifier.fit(X_train, y_train)
 
 # Save the model and preprocessing objects
-joblib.dump(classifier, os.path.join(current_dir, 'models/classifier_model.pkl'))
-joblib.dump(label_encoder, os.path.join(current_dir, 'models/label_encoder.pkl'))
-joblib.dump(scaler, os.path.join(current_dir, 'models/scaler.pkl'))
+model_dir = os.path.join(current_dir, 'models')
+os.makedirs(model_dir, exist_ok=True)
+joblib.dump(classifier, os.path.join(model_dir, 'classifier_model.pkl'))
+joblib.dump(label_encoder, os.path.join(model_dir, 'label_encoder.pkl'))
+joblib.dump(scaler, os.path.join(model_dir, 'scaler.pkl'))
 
 # Step 2: Emotion Recognition
 
@@ -90,29 +85,26 @@ emotion_results = emotion_classifier(user_input)
 top_emotion = max(emotion_results[0], key=lambda x: x['score'])['label']
 print(f"Recognized Emotion: {top_emotion}")
 
-# Step 3: Set Up Spotify API
+# Step 3: Music Recommendations Based on Emotion
 
-client_id = 'YOUR_SPOTIFY_CLIENT_ID'
-client_secret = 'YOUR_SPOTIFY_CLIENT_SECRET'
+def get_music_recommendations(emotion):
+    recommendations = {
+        'joy': ['Happy_Song_1', 'Happy_Song_2', 'Happy_Song_3'],
+        'anger': ['Metal_Song_1', 'Metal_Song_2', 'Metal_Song_3'],
+        'sadness': ['Sad_Song_1', 'Sad_Song_2', 'Sad_Song_3'],
+        'fear': ['Ambient_Song_1', 'Ambient_Song_2', 'Ambient_Song_3'],
+        'disgust': ['Punk_Song_1', 'Punk_Song_2', 'Punk_Song_3'],
+        'surprise': ['Pop_Song_1', 'Pop_Song_2', 'Pop_Song_3']
+    }
+    
+    return recommendations.get(emotion.lower(), ['No recommendations found for this emotion'])
 
-# Map emotions to Spotify track characteristics or genres
-emotion_to_genre = {
-    'joy': 'happy',
-    'anger': 'metal',
-    'sadness': 'sad',
-    'fear': 'ambient',
-    'disgust': 'punk',
-    'surprise': 'pop'
-}
-
-# Use the recognized emotion to get the genre
-seed_genre = emotion_to_genre.get(top_emotion.lower(), 'pop')  # Default to 'pop' if emotion is not in the map
-
-# Fetch recommendations based on the emotion/genre
-recommendations = sp.recommendations(seed_genres=[seed_genre], limit=10)
+# Get music recommendations based on the recognized emotion
+recommendations = get_music_recommendations(top_emotion)
 
 # Display recommendations
-for i, track in enumerate(recommendations['tracks']):
-    print(f"{i+1}: {track['name']} by {track['artists'][0]['name']}")
+print("Music Recommendations:")
+for i, song in enumerate(recommendations):
+    print(f"{i+1}: {song}")
 
 
