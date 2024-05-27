@@ -9,8 +9,6 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import joblib
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
 from transformers import pipeline
 
 # Step 1: Load DEAM Features and Annotations
@@ -96,9 +94,6 @@ print(f"Recognized Emotion: {top_emotion}")
 
 client_id = 'YOUR_SPOTIFY_CLIENT_ID'
 client_secret = 'YOUR_SPOTIFY_CLIENT_SECRET'
-
-auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
-sp = spotipy.Spotify(auth_manager=auth_manager)
 
 # Map emotions to Spotify track characteristics or genres
 emotion_to_genre = {
