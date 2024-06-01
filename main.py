@@ -9,13 +9,13 @@ song_df = pd.read_csv('animesongsemotion.csv')
 
 # TF-IDF Vectorization on emotion
 tfidf = TfidfVectorizer(stop_words='english')
-tfidf_matrix = tfidf.fit_transform(song_df['emotion'])
+tfidf_matrix = tfidf.fit_transform(song_df['emotions'])
 
 # Compute the cosine similarity matrix using linear_kernel
 cosine_similarity = linear_kernel(tfidf_matrix, tfidf_matrix)
 
 # Function to get song recommendations based on song emotion
-def get_recommendations(emotion):
+def get_recommendations(emotions):
     # Find the indices of songs with the specified emotion
     emotion_indices = song_df[song_df['emotion'].str.lower() == emotion].index
     if len(emotion_indices) == 0:
