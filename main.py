@@ -32,7 +32,7 @@ def get_recommendations(emotion):
     return recommendations
 
 # Example usage
-user_input_emotion = input("Enter one of the emotions (happy, sad, energetic, calm, angry, romantic): ")
+user_input_emotion = input("Enter one of the emotions (happy, sad, intense, pain, love, motivated): ")
 user_input_emotion = user_input_emotion.lower()  # Convert to lowercase for case-insensitivity
 recommendations = get_recommendations(user_input_emotion)
 
