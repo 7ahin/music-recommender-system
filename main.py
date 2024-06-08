@@ -26,9 +26,9 @@ def get_recommendations(emotion):
     # Use the first index to get recommendations
     emotion_index = emotion_indices[0]
     similar_songs = list(enumerate(cosine_similarity[emotion_index]))
-    similar_songs = sorted(similar_songs, key=lambda x: x[1], reverse=True)[1:6]
+    similar_songs = sorted(similar_songs, key=lambda x: (x[1], song_df.iloc[x[0]]['Ratings']), reverse=True)[1:6]
 
-    recommendations = [(song_df.iloc[i[0]]['Artist'], song_df.iloc[i[0]]['Song Name ']) for i in similar_songs]
+    recommendations = [(song_df.iloc[i[0]]['Artist'], song_df.iloc[i[0]]['Song Name '], song_df.iloc[i[0]]['Anime']) for i in similar_songs]
     return recommendations
 
 # Example usage
@@ -39,6 +39,6 @@ recommendations = get_recommendations(user_input_emotion)
 if isinstance(recommendations, list):
     print(f"Song Recommendations for '{user_input_emotion}':")
     for i, (artist, song) in enumerate(recommendations, 1):
-        print(f"{i}. {song} by {artist}")
+        print(f"{i}. {song} by {artist} (from {anime})")
 else:
     print(recommendations)
