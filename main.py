@@ -37,7 +37,7 @@ user_input_emotion = user_input_emotion.lower()  # Convert to lowercase for case
 recommendations = get_recommendations(user_input_emotion)
 
 if isinstance(recommendations, list):
-    print(f"Song Recommendations for '{user_input_emotion}':")
+    print(f"Top 5 Rated Songs for '{user_input_emotion}':")
     for i, (artist, song) in enumerate(recommendations, 1):
         print(f"{i}. {song} by {artist} (from {anime})")
 else:
