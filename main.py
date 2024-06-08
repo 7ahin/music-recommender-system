@@ -28,7 +28,7 @@ def get_recommendations(emotion):
     similar_songs = list(enumerate(cosine_similarity[emotion_index]))
     similar_songs = sorted(similar_songs, key=lambda x: x[1], reverse=True)[1:6]
 
-    recommendations = [song_df.iloc[i[0]]['Song Name '] for i in similar_songs]
+    recommendations = [(song_df.iloc[i[0]]['Artist'], song_df.iloc[i[0]]['Song Name ']) for i in similar_songs]
     return recommendations
 
 # Example usage
@@ -36,10 +36,9 @@ user_input_emotion = input("Enter one of the emotions (happy, sad, intense, pain
 user_input_emotion = user_input_emotion.lower()  # Convert to lowercase for case-insensitivity
 recommendations = get_recommendations(user_input_emotion)
 
-# Display recommendations
 if isinstance(recommendations, list):
     print(f"Song Recommendations for '{user_input_emotion}':")
-    for i, song in enumerate(recommendations, 1):
-        print(f"{i}. {song}")
+    for i, (artist, song) in enumerate(recommendations, 1):
+        print(f"{i}. {song} by {artist}")
 else:
     print(recommendations)
