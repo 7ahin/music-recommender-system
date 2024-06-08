@@ -1,6 +1,5 @@
 Song Name ,Singer / Artists,Emotions,Anime,Ratings
 HOWLING ,abingdon boys school,Intense,Darker than Black ,8
-
 MUKANJYO,Survive Said The Prophet,Intense,Vinland Saga,9
 Dark Crow,MAN WITH A MISSION,Motivated,Vinland Saga,8
 Torches,Aimer,Sad,Vinland Saga,7
@@ -9,7 +8,6 @@ River,Anonymouz,Happy,Vinland Saga,7
 Paradox,Survive Said The Prophet,Intense,Vinland Saga,9
 Without Love,LMYK,Sad,Vinland Saga,7
 Ember,haju:harmonics,Motivated,Vinland Saga,8
-
 Monochrome no Kiss, SID, Love, Black Butler, 8
 I'm ALIVE!, BECCA, Motivated, Black Butler, 9
 Lacrimosa, Kalafina, Sad, Black Butler, 7
@@ -19,12 +17,6 @@ Kagayaku Sora no Shijima ni wa, Kalafina, Pain, Black Butler, 8
 ENAMEL, SID, Intense, Black Butler, 9
 Aoki Tsuki Michite, AKIRA, Sad, Black Butler, 7
 The Parade of Battlers, otoha, Love, Black Butler, 8
-
-Blue Bird,Ikimono Gakari ,Motivated,Naruto Shippuden,7
-Silhoutte,Kana-Boon,Motivated,Naruto Shippuden,10
-Sadness and Sorrow,Musashi Purojekuto  - Toshio Masuda,Sad,Naruto,7
-Go!!!,Flow,Motivated,Naruto,7
-Sign, Flow, Pain, Naruto Shippuden,7
 Kusou Mythology,Yosei Teikoku,Intense,Mirai Nikki,6
 Red Liberation, fripSide, Happy, The Vexations of a Shut-In Vampire Princess,7
 Roki Roki,Pain,Mekakucity Actors,10
@@ -44,32 +36,85 @@ Shougeki, Yuko Ando, Sad, Attack on Titan,8
 Saigo no Kyojin, Linked Horizon, Motivated, Attack on Titan,9
 UNDER THE TREE, SiM, Intense, Attack on Titan,8
 Itterasshai, Ai Higuchi, Happy, Attack on Titan,8
-
-R★O★C★K★S, HOUND DOG, Naruto, Motivated, 8
-Haruka Kanata, ASIAN KUNG-FU GENERATION, Naruto, Intense, 7
-Kanashimi wo Yasashisa ni, little by little, Naruto, Sad, 6
-GO!!!, FLOW, Naruto, Motivated, 9
-Seishun Kyosokyoku, Sambomaster, Naruto, Happy, 7
-No Boy, No Cry, Stance Punks, Naruto, Sad, 7
-Namikaze Satellite, Snowkel, Naruto, Love, 8
-Re:member, FLOW, Naruto, Motivated, 8
-Yura Yura, Hearts Grow, Naruto, Pain, 7
-Wind, Akeboshi, Naruto, Pain, 8
-Harmonia, RYTHEM, Naruto, Happy, 7
-Viva Rock ~Japanese Side~, Orange Range, Naruto, Happy, 8
-ALIVE, Raiko, Naruto, Motivated, 7
-Ima made Nando mo, the Mass Missile, Naruto, Love, 7
-Ryusei, Tia, Naruto, Intense, 8
-Mountain A Go Go Too, Captain Straydum, Naruto, Intense, 7
-Hajimete Kimi to Shabetta, GagagaSP, Naruto, Happy, 8
-Nakushita Kotoba, No Regret Life, Naruto, Sad, 7
-Speed, Analogfish, Naruto, Motivated, 8
-Soba ni Iru Kara, Amadori, Naruto, Happy, 7
-Parade, CHABA, Naruto, Happy, 7
-Yellow Moon, Akeboshi, Naruto, Pain, 8
-Pinocchio, Ore Ska Band, Naruto, Happy, 7
-Scenario, SABOTEN, Naruto, Motivated, 8
-
+R★O★C★K★S, HOUND DOG, Motivated, Naruto, 8
+Haruka Kanata, ASIAN KUNG-FU GENERATION, Intense, Naruto, 7
+Kanashimi wo Yasashisa ni, little by little, Sad, Naruto, 6
+GO!!!, FLOW, Motivated, Naruto, 9
+Seishun Kyosokyoku, Sambomaster, Happy, Naruto, 7
+No Boy, No Cry, Stance Punks, Sad, Naruto, 7
+Namikaze Satellite, Snowkel, Love, Naruto, 8
+Re:, FLOW, Motivated, Naruto, 8
+Yura Yura, Hearts Grow, Pain, Naruto, 7
+Wind, Akeboshi, Pain, Naruto, 8
+Harmonia, RYTHEM, Happy, Naruto, 7
+Viva Rock Japanese Side, Orange Range, Happy, Naruto, 8
+ALIVE, Raiko, Motivated, Naruto, 7
+Ima made Nando mo, the Mass Missile, Love, Naruto, 7
+Ryusei, Tia, Intense, Naruto, 8
+Mountain A Go Go Too, Captain Straydum, Intense, Naruto, 7
+Hajimete Kimi to Shabetta, GagagaSP, Happy, Naruto, 8
+Nakushita Kotoba, No Regret Life, Sad, Naruto, 7
+Speed, Analogfish, Motivated, Naruto, 8
+Soba ni Iru Kara, Amadori, Happy, Naruto, 7
+Parade, CHABA, Happy, Naruto, 7
+Yellow Moon, Akeboshi, Pain, Naruto, 8
+Pinocchio, Ore Ska Band, Happy, Naruto, 7
+Scenario, SABOTEN, Motivated, Naruto, 8
+Hero's Come Back!!, nobodyknows+, Motivated, Naruto: Shippuden, 9
+distance, LONG SHOT PARTY, Happy, Naruto: Shippuden, 8
+Blue Bird, Ikimono Gakari, Intense, Naruto: Shippuden, 8
+Sign, FLOW, Motivated, Naruto: Shippuden, 10
+Silhouette, KANA-BOON, Intense, Naruto: Shippuden, 10
+Diver, NICO Touches the Walls, Motivated, Naruto: Shippuden, 9
+Lovers, 7!!, Love, Naruto: Shippuden, 9
+newsong, tacica, Happy, Naruto: Shippuden, 7
+Moshimo, Daisuke, Sad, Naruto: Shippuden, 8
+Niwaka Ame Nimo Makezu, NICO Touches the Walls, Intense, Naruto: Shippuden, 10
+Tsuki no Ookisa, Nogizaka46, Intense, Naruto: Shippuden, 8
+Guren, DOES, Intense, Naruto: Shippuden, 6
+Kaze, Yamazaru, Motivated, Naruto: Shippuden, 9
+LINE, Sukima Switch, Sad, Naruto: Shippuden, 7
+Blood Circulator, ASIAN KUNG-FU GENERATION, Pain, Naruto: Shippuden, 9
+Kara no Kokoro, Anly, Happy, Naruto: Shippuden, 9
+Nagare Boshi Shooting Star, HOME MADE Kazoku, Motivated, Naruto: Shippuden, 8
+Michi ~to you all, aluto, Intense, Naruto: Shippuden, 8
+Kimi Monogatari, little by little, Sad, Naruto: Shippuden, 7
+Mezamero! Yasei, MATCHY with QUESTION?, Intense, Naruto: Shippuden, 8
+Sunao na Niji, surface, Sad, Naruto: Shippuden, 7
+Broken Youth, Nico Touches the Walls, Intense, Naruto: Shippuden, 8
+Long Kiss Goodbye, HALCALI, Love, Naruto: Shippuden, 8
+BACCHIKOI!!!, DEV PARADE, Energetic, Naruto: Shippuden, 8
+Shinkokyuu, SUPER BEAVER, Intense, Naruto: Shippuden, 8
+My ANSWER, SEAMO, Motivated, Naruto: Shippuden, 8
+Omae Dattanda, Kishidan, Intense, Naruto: Shippuden, 7
+For You, AZU, Happy, Naruto: Shippuden, 7
+Jitensha, OreSkaBand, Energetic, Naruto: Shippuden, 8
+Utakata Hanabi, supercell, Sad, Naruto: Shippuden, 8
+U can do it!, DOMINO, Motivated, Naruto: Shippuden, 7
+Mayonaka no Orchestra, Aqua Timez, Sad, Naruto: Shippuden, 8
+FREEDOM, HOME MADE Kazoku, Motivated, Naruto: Shippuden, 8
+Yokubou wo Sakebe!!!!, OKAMOTO'S, Intense, Naruto: Shippuden, 8
+Place to Try, TOTALFAT, Happy, Naruto: Shippuden, 7
+By My Side, Hemenway, Love, Naruto: Shippuden, 8
+Cascade, UNLIMITS, Intense, Naruto: Shippuden, 8
+Kono Koe Karashite feat. CHEHON, AISHA, Intense, Naruto: Shippuden, 8
+MOTHER, MUCC, Pain, Naruto: Shippuden, 8
+Sayonara Memory, 7!!, Sad, Naruto: Shippuden, 7
+I Can Hear, DISH//, Happy, Naruto: Shippuden, 7
+Yume wo Daite Hajimari no Crissroad, Rake, Love, Naruto: Shippuden, 8
+Black Night Town, Akihisa Kondou, Sad, Naruto: Shippuden, 7
+FLAME, DISH//, Intense, Naruto: Shippuden, 8
+Never Change feat.Lyu, SHUN, Love, Naruto: Shippuden, 8
+Dame Dame da, Shiori Tomita, Sad, Naruto: Shippuden, 7
+Spinning World, Diana Garnet, Happy, Naruto: Shippuden, 8
+Kotoba no Iranai Yakusoku, sana, Love, Naruto: Shippuden, 7
+Niji no Sora, FLOW, Intense, Naruto: Shippuden, 8
+Trouble Maker, KANIKAPILA, Energetic, Naruto: Shippuden, 8
+Sonna Kimi, Konna Boku, Thinking Dogs, Sad, Naruto: Shippuden, 7
+Ao no Lullaby, Kuroneko Chelsea, Melancholic, Naruto: Shippuden, 7
+Pino to Amélie, Huwie Ishizaki, Happy, Naruto: Shippuden, 8
+Tabidachi no Uta, Ayumikurikamaki, Sad, Naruto: Shippuden, 7
+Zetsu Zetsu, Swimy, Intense, Naruto: Shippuden, 8
 Resonance, T.M.Revolution, Intense, Soul Eater,8
 PAPERMOON, Tommy heavenly6, Sad, Soul Eater,8
 I Wanna Be, STANCE PUNKS, Motivated, Soul Eater,7
@@ -80,94 +125,174 @@ Counter Identity, UNISON SQUARE GARDEN, Motivated, Soul Eater,7
 Ai ga Hoshii yo, Shion Tsuji, Love, Soul Eater,7
 Ao no Kaori, Yui Makino, Sad, Soul Eater,7
 Northern Lights, How Merry Marry, Happy, Soul Eater,7
-
-Inferno,Mrs. GREEN APPLE,Intense,Fire Force,9
-
-Mixed Nuts, Official HIGE DANdism,Happy,Spy x Family,9
-
-from the edge,FictionJunction ft LiSA,Motivated,Kimetsu No Yaiba,8
-Gurenge,LiSA,Happy,Kimetsu No Yaiba,9
-
-Peace Sign ,Kenshi Yonezu,Motivated,Boku no Hero Academia,9
-The Day, Porno Graffiti, Intense, My Hero Academia,9
-Sora ni Utaeba, amazarashi, Sad, My Hero Academia,8
-Dakara, Hitori Janai, Little Glee Monster, Motivated, My Hero Academia,8
-Datte Atashi no Hero, LiSA, Motivated, My Hero Academia,9
-ODD FUTURE, UVERworld, Intense, My Hero Academia,9
-Make my story, Lenny code fiction, Motivated, My Hero Academia,8
-Update, miwa, Motivated, My Hero Academia,8
-Long Hope Philia, Masaki Suda, Motivated, My Hero Academia,9
-Polaris, BLUE ENCOUNT, Motivated, My Hero Academia,8
-Star Marker, KANA-BOON, Motivated, My Hero Academia,8
-Koukai no Uta, Sayuri, Motivated, My Hero Academia,8
-Shout Baby, Ryokuoushoku Shakai, Motivated, My Hero Academia,8
-No.1, DISH//, Motivated, My Hero Academia,8
-Merry-Go-Round, MAN WITH A MISSION, Motivated, My Hero Academia,9
-Ashiato, the peggies, Motivated, My Hero Academia,8
-Uso Janai, Soushi Sakiyama, Motivated, My Hero Academia,8
-Hitamuki, SUPER BEAVER, Motivated, My Hero Academia,9
-Bokura no, Eve, Motivated, My Hero Academia,8
-SKETCH, Kiiro Akiyama, Motivated, My Hero Academia,8
-Kitakaze, SIX LOUNGE, Motivated, My Hero Academia,8
-Tagatame, TK from Ling tosite sigure, Pain, My Hero Academia,8
-Tsubomi, Omoinotake, Motivated, My Hero Academia,8
-Higher Ground, sumika, Motivated, My Hero Academia,8
-Empathy, ASIAN KUNG-FU GENERATION, Motivated, My Hero Academia,8
-
-
+Inferno, Mrs. GREEN APPLE, Intense, Fire Force, 10
+MAYDAY feat. Ryo from CRYSTAL LAKE, Motivated, Fire Force, 7
+veil, Keina Suda, Intense, Fire Force, 10
+SPARK-AGAIN, Aimer, Intense, Fire Force, 9
+Torch of Liberty, KANA-BOON, Motivated, Fire Force, 8
+ID, CIDERGIRL, Intense, Fire Force, 8
+Desire, PELICAN FANCLUB, Intense, Fire Force, 8
+Mixed Nuts, Official HIGE DANdism, SPYxFAMILY, Happy, 8
+SOUVENIR, BUMP OF CHICKEN, SPYxFAMILY, Motivated, 8
+Kigeki, Gen Hoshino, SPYxFAMILY, Intense, 8
+Shikisai, yama, SPYxFAMILY, Intense, 8
+Kura Kura, Ado, SPYxFAMILY, Intense, 9
+Todome no Ichigeki feat. Cory Wong, Vaundy, SPYxFAMILY, Intense, 8
+SOULSOUP, Official HIGE DANdism, SPYxFAMILY, Motivated, 8
+Hikari no Ato, Gen Hoshino, SPYxFAMILY, Motivated, 8
+Gurenge, LiSA, Intense, Demon Slayer, 9
+from the edge, FictionJunction, Intense, Demon Slayer, 8
+Kamado Tanjiro no Uta, Go Shiina, Motivated, Demon Slayer, 8
+Akeboshi, LiSA, Intense, Demon Slayer, 8
+Shirogane, LiSA, Intense, Demon Slayer, 8
+Homura, LiSA, Intense, Demon Slayer, 8
+Zankyou Zanka, Aimer, Intense, Demon Slayer, 8
+Asa ga Kuru, Aimer, Motivated, Demon Slayer, 7
+Kizuna no Kiseki, MAN WITH A MISSION, Love, Demon Slayer, 8
+Koi Kogare, MAN WITH A MISSION, Love, Demon Slayer, 7
+Mugen, MY FIRST STORY, Intense, Demon Slayer, 8
+Date A Live, sweet ARMS, Love, Date A Live, 8
+SAVE THE WORLD, Iori Nomizu, Motivated, Date A Live, 7
+SAVE MY HEART, Iori Nomizu, Motivated, Date A Live, 7
+Strawberry Rain, Iori Nomizu, Happy, Date A Live, 8
+Trust in you, sweet ARMS, Love, Date A Live, 8
+Day to Story, Kaori Sadohara, Motivated, Date A Live, 7
+My Treasure, Minori Chihara, Love, Date A Live, 8
+I swear, sweet ARMS, Love, Date A Live, 8
+Last Promise, Erii Yamazaki, Sad, Date A Live, 7
+OveR, Miyu Tomita, Intense, Date A Live, 8
+S.O.S, sweet ARMS, Intense, Date A Live, 8
+Paradoxes, Miyu Tomita, Intense, Date A Live, 8
+Hitohira, sweet ARMS, Love, Date A Live, 8
+Peace Sign, Kenshi Yonezu, Motivated, My Hero Academia, 9
+The Day, Porno Graffiti, Intense, My Hero Academia, 9
+Sora ni Utaeba, amazarashi, Sad, My Hero Academia, 8
+Dakara, Hitori Janai, Little Glee Monster, Motivated, My Hero Academia, 8
+Datte Atashi no Hero, LiSA, Motivated, My Hero Academia, 9
+ODD FUTURE, UVERworld, Intense, My Hero Academia, 9
+Make my story, Lenny code fiction, Motivated, My Hero Academia, 8
+Update, miwa, Motivated, My Hero Academia, 8
+Long Hope Philia, Masaki Suda, Motivated, My Hero Academia, 9
+Polaris, BLUE ENCOUNT, Motivated, My Hero Academia, 8
+Star Marker, KANA-BOON, Motivated, My Hero Academia, 8
+Koukai no Uta, Sayuri, Motivated, My Hero Academia, 8
+Shout Baby, Ryokuoushoku Shakai, Motivated, My Hero Academia, 8
+No.1, DISH//, Motivated, My Hero Academia, 8
+Merry-Go-Round, MAN WITH A MISSION, Motivated, My Hero Academia, 9
+Ashiato, the peggies, Motivated, My Hero Academia, 8
+Uso Janai, Soushi Sakiyama, Motivated, My Hero Academia, 8
+Hitamuki, SUPER BEAVER, Motivated, My Hero Academia, 9
+Bokura no, Eve, Motivated, My Hero Academia, 8
+SKETCH, Kiiro Akiyama, Motivated, My Hero Academia, 8
+Kitakaze, SIX LOUNGE, Motivated, My Hero Academia, 8
+Tagatame, TK from Ling tosite sigure, Pain, My Hero Academia, 8
+Tsubomi, Omoinotake, Motivated, My Hero Academia, 8
+Higher Ground, sumika, Motivated, My Hero Academia, 8
+Empathy, ASIAN KUNG-FU GENERATION, Motivated, My Hero Academia, 8
+Pray, Tommy heavenly6, Intense, Gintama, 8
+Tooi Nioi, YO-KING, Sad, Gintama, 7
+Giniro no Sora, redballoon, Happy, Gintama, 8
+Kasanaru Kage, Hearts Grow, Love, Gintama, 8
+Donten, DOES, Intense, Gintama, 9
+Anata MAGIC, monobright, Motivated, Gintama, 7
+Stairway Generation, Base Ball Bear, Motivated, Gintama, 8
+Light Infection, Prague, Intense, Gintama, 8
+Fuusen Gum, Captain Straydum, Happy, Gintama, 7
+MR.RAINDROP, amplified, Sad, Gintama, 7
+Yuki no Tsubasa, redballoon, Love, Gintama, 8
+Candy Line, Hitomi Takahashi, Happy, Gintama, 7
+Shura, DOES, Intense, Gintama, 8
+Kiseki, Snowkel, Love, Gintama, 8
+SIGNAL, KELUN, Motivated, Gintama, 7
+Speed of Flow, The Rodeo Carburettor, Intense, Gintama, 8
+Sanagi, POSSIBILITY, Motivated, Gintama, 8
+This World is yours, plingmin, Love, Gintama, 7
+Ai, Ai, Ai, GHOSTNOTE, Sad, Gintama, 7
+Kagayaita, SHIGI, Happy, Gintama, 8
+Asa Answer, PENGIN, Motivated, Gintama, 7
+Wo Ai Ni, Hitomi Takahashi feat. Beat Crusaders, Love, Gintama, 8
+Wonderful Days, ONE☆DRAFT, Happy, Gintama, 8
+SAYONARA no Sora, Qwai, Sad, Gintama, 7
+Tougenkyou Alien, serial TV drama, Intense, Gintama, 8
+Dilemma, ecosystem, Pain, Gintama, 8
+Wonderland, FLiP, Happy, Gintama, 7
+Samurai Heart (Some Like It Hot!!), SPYAIR, Intense, Gintama, 8
+Balance Doll, Prague, Intense, Gintama, 8
+Anagura, Kuroneko Chelsea, Motivated, Gintama, 7
+Nakama, Good Coming, Love, Gintama, 7
+LET'S GO OUT, Amoyamo, Happy, Gintama, 7
+Mantama, Tsu Terakado ♀ with Houkago Happy Hour, Happy, Gintama, 7
+Sakura Mitsutsuki, SPYAIR, Love, Gintama, 8
+Expect, Page, Motivated, Gintama, 7
+Moonwalk, Monobright, Happy, Gintama, 7
+DAY×DAY, BLUE ENCOUNT, Motivated, Gintama, 8
+Pride Kakumei, CHiCO with HoneyWorks, Motivated, Gintama, 7
+Saigo made II, Aqua Timez, Sad, Gintama, 7
+Beautiful Days, OKAMOTO'S, Happy, Gintama, 8
+Know Know Know, DOES, Intense, Gintama, 8
+Acchi Muite, Swimy, Love, Gintama, 7
+DESTINY, Negoto, Intense, Gintama, 8
+Kagerou, ЯeaL, Intense, Gintama, 8
+SILVER, RIZE, Intense, Gintama, 8
+VS, BLUE ENCOUNT, Intense, Gintama, 8
+Hankou Seimei, Ayumikurikamaki, Intense, Gintama, 8
+Katte ni My Soul, DISH//, Motivated, Gintama, 7
+Hana Ichi Monme, BURNOUT SYNDROMES, Happy, Gintama, 7
+I Wanna Be…, SPYAIR, Motivated, Gintama, 8
+Bokutachi no Kisetsu, DOES, Sad, Gintama, 7
+Bakuchi Dance, DOES, Intense, Gintama, 8
+Genjou Destruction, SPYAIR, Intense, Gintama, 8
+Wadachi, SPYAIR, Intense, Gintama, 8
 Kataomoi,Aimer,Love,Lovely Complex ,7
-
 found & lost, Survive Said The Prophet, Sad, Banana Fish,9
+FREEDOM,	BLUE ENCOUNT, Pain, Banana Fish,9
 Prayer X, King Gnu, Pain, Banana Fish,10
-
+RED,	Survive Said The Prophet, Sad, Banana Fish,9
 Sunny Day Song,micro's,Happy,Love Live! The School Idol Movie,10
-
 Secret Base Kimi ga Kureta Mono,"Ai Kayano, Haruka Tomatsu, Saori Hayami ",Love,Anohana,6
-
+Idol, YOASOBI, Happy, Oshi no Ko, 8
 Mephisto, Queen Bee, Intense, Oshi no Ko,7
-
 Cry Baby, Official HIGE DANdism, Pain, Tokyo Revengers,9
-
 Forces ,Susume Hirasawa,Pain,Berserk ,7
-
 Kimi ni Todoke,May's ,Love,Kimi ni Todoke,7
-
 For Fruits Basket ,Ritsuko Okazaki ,Love,Fruits Basket,9
-
-
 Absolute zero, natori, Intense, Wind Breaker,8
-
 departure!, , Happy, Hunter x Hunter,9
-
 Let Me Hear, Fear and Loathing in Las Vegas, Pain, Parasyte: The Maxim,8
-
 A Cruel Angel's Thesis,Yoko Takahashi,Intense,Neon Genesis Evangelion,9
-"Komm, susser Tod ",Arianne,Sad,,8
-
-We Are!,Hiroshi Kitadani,Happy,One Piece,7
-
+We Are!, Hiroshi Kitadani, Happy, One Piece, 9
+Believe, Folder5, Motivated, One Piece, 8
+Hikari e, The Babystars, Motivated, One Piece, 8
+Bon Voyage!, Bon-Bon Blanco, Motivated, One Piece, 8
+Kokoro no Chizu, BOYSTYLE, Motivated, One Piece, 8
+Brand New World, D-51, Motivated, One Piece, 8
+We Are!, the Straw Hat Pirates, Happy, One Piece, 9
+Crazy Rainbow, Tackey & Tsubasa, Happy, One Piece, 7
+Jungle P, 5050, Happy, One Piece, 8
+We Are, TVXQ, Happy, One Piece, 8
+Share the World, TVXQ, Motivated, One Piece, 8
+Kaze wo Sagashite, Mari Yaguchi with the Straw Hats, Motivated, One Piece, 7
+One Day, The Rootless, Motivated, One Piece, 7
+Fight Together, Namie Amuro, Motivated, One Piece, 8
+We go!, Hiroshi Kitadani, Happy, One Piece, 8
+Hands Up!, Kouta Shinzato, Happy, One Piece, 8
+Wake up!, AAA, Motivated, One Piece, 8
+Hard Knock Days, GENERATIONS from EXILE TRIBE, Motivated, One Piece, 8
+We can!, Kishidan and Hiroshi Kitadani, Happy, One Piece, 8
+Hope, Namie Amuro, Motivated, One Piece, 8
+Super Powers, V6, Motivated, One Piece, 8
+OVER THE TOP, Hiroshi Kitadani, Intense, One Piece, 9
+DREAMIN' ON, Da-iCE, Intense, One Piece, 8
+PAINT, I Don't Like Mondays., Intense, One Piece, 8
+Saikou Totatsuten, SEKAI NO OWARI, Intense, One Piece, 8
+Earth!, Hiroshi Kitadani, Motivated, One Piece, 8
 Catch The Moment,LiSA,Happy,Sword Art Online,9
-
-Idol, YOASOBI, Happy,,8
-
 For Fruits Basket ,Ritsuko Okazaki ,Love,Fruits Basket,9
-
-Silhoutte,Kana-Boon,Motivated,Naruto Shippuden,10
-Sadness and Sorrow,Musashi Purojekuto  - Toshio Masuda,Sad,Naruto,7
-Go!!!,Flow,Motivated,Naruto,7
-Sign, Flow, Pain, Naruto Shippuden,7
-
 HOWLING ,abingdon boys school,Intense,Darker than Black ,8
-
 Orange,7!!,Love,Shigatsu Kimi no Uso,8
-
 Sorairo Days, Shoko Nakagawa, Motivated, Tengen Toppa Gurren Lagann,10
-
 Fire, Queen Bee, Motivated, Dororo,6
-
 Ref ,Aimer,Sad,After the Rain,10
-
-
 Melissa, Porno Graffiti, Intense, Fullmetal Alchemist,8
 UNDO, Cool Joke, Intense, Fullmetal Alchemist,8
 Rewrite, ASIAN KUNG-FU GENERATION, Intense, Fullmetal Alchemist,9
@@ -186,19 +311,7 @@ Uso, SID, Sad, Fullmetal Alchemist: Brotherhood,8
 LET IT OUT, Miho Fukuhara, Sad, Fullmetal Alchemist: Brotherhood,8
 Shunkan Sentimental, SCANDAL, Intense, Fullmetal Alchemist: Brotherhood,8
 RAY OF LIGHT, Shoko Nakagawa, Motivated, Fullmetal Alchemist: Brotherhood,8
-
-Forces ,Susume Hirasawa,Pain,Berserk ,7
-
 Catch The Moment,LiSA,Happy,Sword Art Online,9
-
-Orange,7!!,Love,Shigatsu Kimi no Uso,8
-
 Sadness and Sorrow,Musashi Purojekuto  - Toshio Masuda,Sad,Naruto,7
-Go!!!,Flow,Motivated,Naruto,7
-Sign, Flow, Pain, Naruto Shippuden,7
-
 Kimi ni Todoke,May's ,Love,Kimi ni Todoke,7
-
-"Komm, susser Tod ",Arianne,Sad,,8
-
 Song of the Dead, Kana-Boon, Happy, Zom 100: Bucket List of the Dead,8
